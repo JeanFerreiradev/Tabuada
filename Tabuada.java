@@ -15,7 +15,7 @@ public class Tabuada {
 			num = console.nextInt();
 		}
 		for (multiplicador = 1; multiplicador <= 10; multiplicador++) {
-			System.out.println(multiplicador + " x " + num + " = " + multiplicador * num);
+			System.out.println("%d x %d = %d\n", multiplicador, num, multiplicador * num);
 		}
 		
 		
